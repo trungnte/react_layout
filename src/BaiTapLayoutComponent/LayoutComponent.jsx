@@ -3,8 +3,7 @@ import React, { Component } from 'react'
 export default class LayoutComponent extends Component {
   render() {
     return (
-      // Header
-
+      <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container px-lg-5">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +27,21 @@ export default class LayoutComponent extends Component {
           </div>
         </nav>
 
+        <div className='container p-5'>
+          <div classname="container p-lg-5">
+            <div className='p-4 p-lg-5 bg-light text-center'>
+              <div classname="m-4 m-lg-5 p-lg-5">
+                <h1 className='mt-5 mb-3 h1_bold'>A warm welcome!</h1>
+                <p className='px-5 banner_text'>Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?</p>
+                <button type="button" className="btn btn-primary banner_text mb-5">Call to action</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
 
+      </div>
     )
   }
 }
