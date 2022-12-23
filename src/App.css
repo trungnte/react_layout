@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.h1_bold {
+  font-weight: 700;
+  font-size: 3.2em;
+  line-height: 1.5;
+}
+
+.banner_text {
+  font-weight: 500;
+  font-size: 1.5em;
+}
